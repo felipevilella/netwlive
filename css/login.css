@@ -1,0 +1,229 @@
+body{
+	background:url(../imagem/fundo.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.logo{
+	padding-top: 40px;
+	padding-left: 25px;
+}
+.informacao{
+	padding-left: 0px;
+	padding-top: 130px;
+}
+.informacao p{
+	color:#fff;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+.botao{
+	padding-left: 90px;
+}
+.informacao input[type=submit]{
+	border: none;
+	outline: none;
+	height: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 16px;
+	background: #517b52;
+	color: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.Login{
+	position: absolute;
+	top: 20%;
+	left: 37%;
+	transform: translate(-50%,-50);
+	width: 350px;
+	min-height:200px;
+    background:#fff;
+	border-radius: 10px;
+	padding: 40px;
+	box-sizing: border-box;
+}
+.user{
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 20px; 
+}
+
+.login img{
+
+	width: 50%;
+}
+h4{
+	margin: 0px;
+	padding: 0 0 20px;
+	color: #000;
+	text-align: center;
+}
+.Login p{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	color: #fff;
+}
+.Login input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.Login img{
+	width: 50%;
+}
+.Login input[type="email"],
+.Login input[type="text"],
+.Login input[type="date"],
+.Login input[type="password"]{
+
+	border: none;
+	border-bottom: 2px solid #262626;
+	outline: none;
+	height: 40px;
+	color: #262626;
+	background:transparent;
+	font-size: 16px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.Login input[type="email"]:focus,
+.Login input[type="text"]:focus,
+.Login input[type="date"]:focus,
+.Login input[type="password"]:focus{
+
+	border-bottom: 2px solid #262626;
+
+}
+.inputBox{
+	position: relative;
+}
+.inputBox span{
+	position: absolute;
+	top: 10px;
+	color: #262626;
+}
+.Login input[type=submit]{
+	border: none;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+	background: #517b52;
+	color: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.Login a{
+	padding-left: 65px; 
+	color: #262626;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;;
+}
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+
+
+.informacao{
+	padding-left: 40px;
+	padding-top: 70px;
+}
+
+.botao{
+	padding-left: 40px;
+}
+
+.Login{
+	position: absolute;
+	top: 60%;
+	left: 4%;
+	transform: translate(-50%,-50);
+	width: 350px;
+	min-height:200px;
+    background:#fff;
+	border-radius: 10px;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+
+}
+@media screen and (min-width: 768px) and (max-width:1080px) {
+
+.informacao{
+	padding-left: 40px;
+	padding-top: 70px;
+	max-width: 100%;
+}
+
+.botao{
+	padding-left: 40px;
+}
+
+.Login{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50);
+	width: 350px;
+	min-height:200px;
+    background:#fff;
+	border-radius: 10px;
+	padding: 40px;
+	
+
+}
+@media screen and (min-width:1380px) {
+.informacao{
+	padding-left: 40px;
+	padding-top: 70px;
+	max-width: 100%;
+}
+
+.botao{
+	padding-left: 40px;
+}
+
+.Login{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50);
+	width: 350px;
+	min-height:200px;
+    background:#fff;
+	border-radius: 10px;
+	padding: 40px;
+
+
+}
+}
+@media screen and (min-width: 1580px) {
+.informacao{
+	padding-left: 40px;
+	padding-top: 70px;
+	max-width: 100%;
+}
+
+.botao{
+	padding-left: 40px;
+}
+
+.Login{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50);
+	width: 350px;
+	min-height:200px;
+    background:#fff;
+	border-radius: 10px;
+	padding: 40px;
+
+
+}
+}
